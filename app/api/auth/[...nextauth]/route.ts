@@ -79,7 +79,7 @@ import { NextApiRequest, NextApiResponse } from "next";
     //   // }
     // },
 
-secret: process.env.NEXTAUTH_SECRET,
+secret: process.env.NEXTAUTH_SECRET
 
 // Define the handler using NextRequest and NextResponse
 const authHandler =  NextAuth( authOptions);
